@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 800px;
+}
+
+.ticket {
+    width: 600px;
+    margin: auto;
+    background-color: burlywood;
+    border: 10px solid orange;
+    height: 300px;
+    position: relative;
+    padding: 20px;
+}
+
+h2 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: translate(-50% , -50%);
+}
+
+h3 {
+    padding: 50px;
+
+}
+
+p {
+    padding: 0 50px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    color: blue;
+}

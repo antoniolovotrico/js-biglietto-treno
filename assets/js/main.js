@@ -14,9 +14,9 @@ var priceUnder = (costoKm / 100) * 20;
 // console.log(priceUnder);
  // scontistica 
  if (yearsOld >= 65) {
-     document.getElementById("costo").innerHTML = costoKm - priceOver + "€";
+     document.getElementById("costo").innerHTML = (costoKm - priceOver).toFixed(2) + "€";
  } else if (yearsOld < 18) {
-     document.getElementById("costo").innerHTML = costoKm - priceUnder + "€";
+     document.getElementById("costo").innerHTML = (costoKm - priceUnder).toFixed(2) + "€";
  } else {
-     document.getElementById("costo").innerHTML = costoKm + "€";
+     document.getElementById("costo").innerHTML = costoKm.toFixed(2) + "€";
  }
